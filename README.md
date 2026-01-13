@@ -1,0 +1,3 @@
+Today the primary challenge with VLMs is the extended attention networks. VLM models first identify the components in the image using a convolutional Network and then translating them into an image-description using the attention network. The primary challenge with this approach is with respect to finding the process of translating the image components identified by the convolutional layer to an image description by utilizing an attention network. 
+
+Imagine if you could input a large video and identify the relevant frames and only use VLM based models for gathering information for that frame. This would conserve a huge amount of compute for systems, reducing the RAM requirement significantly. 
